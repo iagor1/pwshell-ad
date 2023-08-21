@@ -1,5 +1,5 @@
-$emails = Get-Content Get-Content C:\path\txt.txt
-$names = Get-Content Get-Content C:\path\txt.txt
+$emails = Get-Content C:\path\txt.txt
+$names = Get-Content C:\path\txt.txt
 
 function Get-Emails{
 ForEach ($users in $emails) {
